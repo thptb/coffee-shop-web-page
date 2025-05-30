@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+
+# Output
+*.zip
+*.bak
+*.tmp
