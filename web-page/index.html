@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1521kohi - Our Latte Slaps, No Cap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="assets/logo.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/invoice1.png" alt="1521kohi Logo" class="logo">
+                <h1>1521kohi</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#services">Services</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Our latte slaps, No cap</h2>
+                <p>Luxury in the cup, chill on the tab.</p>
+                <a href="#menu" class="btn primary">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About 1521kohi</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Our Vision</h3>
+                    <p>To offer premium quality drinks at a price everyone can enjoy.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Our Mission</h3>
+                    <p>To serve high-quality drinks while ensuring affordability and accessibility for all our customers.</p>
+                </div>
+                <div class="about-card">
+                    <h3>Our Story</h3>
+                    <p>The name '1521kohi' was inspired by our location's address. We're a Gen Z themed café, reflected in our creative menu names and vibrant atmosphere.</p>
+                </div>
+            </div>
+            <div class="location">
+                <img src="assets/web-images/location.jpeg" alt="1521kohi Location" class="location-image">
+                <img src="assets/web-images/map.jpeg" alt="Map Location" class="map-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="legacy">Legacy Drinks</button>
+                <button class="menu-tab" data-category="seasonal-drinks">Seasonal Drinks</button>
+                <button class="menu-tab" data-category="seasonal-snacks">Seasonal Snacks</button>
+            </div>
+            
+            <div class="menu-grid" id="menu-grid">
+                <!-- Menu items will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            
+            <div class="service-info">
+                <h3>Operating Hours:</h3>
+                <p>Open daily from 2:00 PM to 10:00 PM<br>
+                Last call for orders is at 9:30 PM.</p>
+                
+                <h3>Pre-Orders:</h3>
+                <p>Pre-orders placed before opening time are accepted.<br>
+                Deliveries begin at 2:00 PM.</p>
+                
+                <h3>Service Options:</h3>
+                <ul>
+                    <li>Pick-up</li>
+                    <li>Dine-in</li>
+                    <li>Delivery</li>
+                </ul>
+                
+                <h3>Delivery Areas:</h3>
+                <p>We deliver within Golden City, S.R.L., including:<br>
+                Phase 1, Phase 2, Phase 2E Mabuhay, Phase 3, Phase 4, and Phase 4E.</p>
+                
+                <h3>Outside Golden City:</h3>
+                <p>Deliveries to areas beyond Golden City are booked via Angkas or Joyride, with the delivery fee (DF) to be shouldered by the buyer or receiver.</p>
+                
+                <h3>Meet-Up Option:</h3>
+                <p>Meet-ups at Jollibee Golden are also accepted.</p>
+                
+                <h3>Delivery Fees (Within Golden City, Dila, S.R.L.):</h3>
+                <ul>
+                    <li>₱40 for 2 drinks</li>
+                    <li>₱20 for 3 drinks</li>
+                    <li>Free delivery for 4 or more drinks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="1521kohi Logo">
+                    <p>Our latte slaps, No cap</p>
+                </div>
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.facebook.com/1521kohi/"><i class="fab fa-facebook"></i> @1521kohi</a>
+                    <a href="https://www.instagram.com/1521kohi/"><i class="fab fa-instagram"></i> @1521kohi</a>
+                    <a href="https://www.tiktok.com/@1521kohi"><i class="fab fa-tiktok"></i> @1521kohi</a>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +63 952 488 7860</p>
+                    <p><i class="fas fa-envelope"></i> 1521kohi@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> G.C.S.R.L.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 1521kohi. All rights reserved.</p>
+                <p>Owned and operated by The Happy Part-time Barista</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="product-modal">
+        <div class="modal-content">
+            <button class="close-btn">&times;</button>
+            <div class="modal-body" id="product-modal-content">
+                <!-- Product details will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
